@@ -1,14 +1,23 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="primary">
     <ion-title>
-      Ionic Blank
+      FCM POC
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <ion-item>
+    <ion-label floating>Enter Topic to Subscribe</ion-label>
+    <ion-input type="text" [(ngModel)]="topicName"></ion-input>
+  </ion-item>
+  <button ion-button [disabled]="!topicName" (click)="subscribe()">Subscribe</button>
+  <button ion-button [disabled]="!topicName" (click)="unSubscribe()">Unsubscribe</button>
+  <ion-item>
+    <ion-label floating>Your device Token</ion-label>
+    <ion-textarea type="text" [(ngModel)]="deviceToken"></ion-textarea>
+  </ion-item>
+  <button ion-button (click)="getDeviceToken()">Get Device Token</button>
+  <button ion-button (click)="shareToken()">Share Device Token</button>
+  <p>{{status}}</p>
 </ion-content>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "709051161784",
+    "firebase_url": "https://livelinedev-186813.firebaseio.com",
+    "project_id": "livelinedev-186813",
+    "storage_bucket": "livelinedev-186813.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709051161784:android:764d2cb7da3280eb",
+        "android_client_info": {
+          "package_name": "io.ionic.starter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "709051161784-kn5v2h41pvf8oobt2via9h662aom9e68.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1LW7c8OZlmCku2fLF1wZQJokG6kOy1k0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
